@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+        
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Orthopedic Surgeon</p>
+            <h1>Hi, I'm Dr. Michael<span> Thomas </span> <br>from Detriot Michigan</h1>
+        </div>
+    </div>
+</div>
+
+<!-------about-------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/WhatsApp Image 2023-02-14 at 13.42.563.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>My name is Michael Thomas i am an othopedic surgeon, i am working with the united state
+                    Army (UN)
+                    i was born in Detriot Michigan USA
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Orthopedic Surgeon</span><br>Performing Surgery</li>
+                        <li><span>United states Army</span><br>currently working with the united states army in yemen</li>
+                        <li><span>Orthopedic Surgeon</span><br>Performing Surgery</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020- Current</span><br>worked as chief surgeon in Detriot Michigan</li>
+                        <li><span>2015-2019</span><br>worked with a private hospital in the united states</li>
+                        <li><span>2005-2015</span><br>Performing Surgery</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>1995</span><br>got my first degree as a bachelor of medicine, bachelor of surgeon</li>
+                        <li><span>2002</span><br>masters in orthopedic surgeon</li>
+                        <li><span>2015</span><br>united state institute of health technologies</li>
+                    </ul>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--------services-->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Orthopedic</h2>
+                <p>I perform all kinds of surgery including cardiovascular surgery</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Surgeon</h2>
+                <p>I perform all kinds of surgery including cardiovascular surgery</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-app-store"></i>
+                <h2>brean Surgeon</h2>
+                <p>I perform all kinds of surgery including cardiovascular surgery</p>
+                <a href="#">lLearn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/WhatsApp Image 2023-02-14 at 13.42.563.jpg">
+                <div class="layer">
+                    <h3>Orthopedic</h3>
+                    <p>Performing orthopedic surgery by the help of idniaodd sonaubas</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/WhatsApp Image 2023-02-14 at 13.53.4434.jpg">
+                <div class="layer">
+                    <h3>Surgery</h3>
+                    <p>Surgery  class with some medical student lecturing them
+                        practically so as to enable them do well in the medical world
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/WhatsApp Image 2023-02-14 at 13.42.56W.jpg">
+                <div class="layer">
+                    <h3>inernal surgery</h3>
+                    <p>internal surgical operations  of some damages and can be 
+                        don so as to prevent death rate in the world
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+<!-------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> drmthomas778@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>+1(626)208-9770</p>
+                <div class="social-icons">
+                    <a href="https//facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href=""><i class="fa-sharp fa-solid fa-envelope"></i></a>
+                </div>
+               
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Michael Thomas <i class="fa-solid fa-stethoscope"></i> Orthopedic Surgeon</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-150px"
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyTcj36e4Iptkl-UH1V_qavXm8V4pJ_zT7G86hIhApcGLXwFY0zRT1rdY326zU-ow7mUA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg") 
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+
+
+  </script>
+</body>
+</html>
+
+<!--------contact----->
